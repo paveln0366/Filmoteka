@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.pavelpotapov.filmoteka.adapters.MovieAdapter;
 import com.pavelpotapov.filmoteka.data.FavoriteMovie;
 import com.pavelpotapov.filmoteka.data.MainViewModel;
 import com.pavelpotapov.filmoteka.data.Movie;
