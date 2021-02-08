@@ -5,4 +5,6 @@
     <string name="top_rated">Наиболее рейтинговые</string>
     <string name="add_to_favorite">Добавлено в избранное</string>
     <string name="remove_from_favorite">Удалено из избранного</string>
+    <string name="item_main">Главная</string>
+    <string name="item_favorite">Избранное</string>
 </resources>

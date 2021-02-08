@@ -13,7 +13,7 @@ public interface MovieDao {
     @Query("SELECT * FROM movies")
     LiveData<List<Movie>> getAllMovies();
 
-    @Query("SELECT * FROM movies")
+    @Query("SELECT * FROM favorite_movies")
     LiveData<List<FavoriteMovie>> getAllFavoriteMovies();
 
     @Query("SELECT * FROM movies WHERE id == :movieId")
