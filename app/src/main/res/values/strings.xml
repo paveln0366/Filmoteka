@@ -1,11 +1,16 @@
 <resources>
     <string name="app_name">Filmoteka</string>
-    <string name="poster_of_movie">Постер к фильму</string>
-    <string name="most_popular">Самые популярные</string>
-    <string name="top_rated">Наиболее рейтинговые</string>
-    <string name="add_to_favorite">Добавлено в избранное</string>
-    <string name="remove_from_favorite">Удалено из избранного</string>
-    <string name="item_main">Главная</string>
-    <string name="item_favorite">Избранное</string>
-    <string name="launch_trailer">Запустить трейлер</string>
+    <string name="poster_of_movie">"Movie poster "</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">"Most rated "</string>
+    <string name="add_to_favorite">"Added to favorites "</string>
+    <string name="remove_from_favorite">"Removed from favorites "</string>
+    <string name="item_main">Home</string>
+    <string name="item_favorite">"Favorites "</string>
+    <string name="launch_trailer">"Launch trailer "</string>
+    <string name="movie_name">Name:</string>
+    <string name="movie_original_name">Original name:</string>
+    <string name="movie_rating">Rating:</string>
+    <string name="movie_release_date">Date of release:</string>
+    <string name="movie_description">Description:</string>
 </resources>

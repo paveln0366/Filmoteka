@@ -10,5 +10,7 @@
     
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ffd737</color>
+    <color name="yellow">#ffd737</color>
+    <color name="grey">#d9d9d9</color>
 </resources>

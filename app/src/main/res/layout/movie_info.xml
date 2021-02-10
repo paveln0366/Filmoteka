@@ -4,21 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <TextView style="@style/LabelStyle"
         android:id="@+id/textViewLabelTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Название: "
+        android:text="@string/movie_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <View
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:layout_margin="4dp"
-        android:background="@color/black"
+    <View style="@style/BorderStyle"
         app:layout_constraintTop_toBottomOf="@id/textViewLabelTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -42,15 +36,18 @@
         app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <TextView style="@style/LabelStyle"
         android:id="@+id/textViewLabelOriginalTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Оригинальное название:"
+        android:text="@string/movie_original_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <View style="@style/BorderStyle"
+        app:layout_constraintTop_toBottomOf="@id/textViewLabelOriginalTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewOriginalTitle"
@@ -63,15 +60,18 @@
         app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
         app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
 
-    <TextView
+    <TextView style="@style/LabelStyle"
         android:id="@+id/textViewLabelRating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Рейтинг:"
+        android:text="@string/movie_rating"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewOriginalTitle" />
+
+    <View style="@style/BorderStyle"
+        app:layout_constraintTop_toBottomOf="@id/textViewLabelRating"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewRating"
@@ -83,15 +83,18 @@
         app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
         app:layout_constraintTop_toBottomOf="@+id/textViewOriginalTitle" />
 
-    <TextView
+    <TextView style="@style/LabelStyle"
         android:id="@+id/textViewLabelReleaseDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Дата релиза:"
+        android:text="@string/movie_release_date"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewRating" />
+
+    <View style="@style/BorderStyle"
+        app:layout_constraintTop_toBottomOf="@id/textViewLabelReleaseDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textViewReleaseDate"
@@ -105,13 +108,11 @@
         app:layout_constraintStart_toStartOf="@+id/guidelineCenter"
         app:layout_constraintTop_toBottomOf="@+id/textViewRating" />
 
-    <TextView
+    <TextView style="@style/LabelStyle"
         android:id="@+id/textViewLabelDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Описание:"
+        android:text="@string/movie_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewReleaseDate" />
 
